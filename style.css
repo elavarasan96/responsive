@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Poppins',sans-serif;
+    background: linear-gradient(to right,lightgray,lightblue);
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* nav bar */
+#navbar{
+    position: sticky !important;
+    top: 0 !important;
+    background: white !important;
+    z-index: 10 !important;
+    background: linear-gradient(to right,lightgray,lightblue) !important;
+}
+.bold{
+    font-size: 25px;
+}
+
+li{
+    padding: 5px;
+}
+.nav-link{
+    font-size: 15px !important;
+    font-weight: bold !important;
+    border: 2px solid transparent !important;
+    color: blue !important;
+}
+.nav-link:hover{
+    border-bottom: 2px solid blue !important;
+    transition: .1s !important;
+}
+
+/* home */
+span{
+    color: blue;
+    font-weight: bold;
+}
+p{
+    font-size: 18px;
+
+}
+#home img{
+    width: 100%;
+}
+/* About */
+#about img{
+    width: 100%;
+    border-radius: 50px;
+}
+
+/* service */
+#service{
+    overflow: hidden;
+}
+.card img{
+    height: 230px;
+    transition: 1s;
+}
+.inner{
+    overflow: hidden;
+}
+.card img:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+/* contact */
+form{
+    padding: 40px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2),
+                -1px -1px 5px rgba(0,0,0,.08);
+    border-radius: 30px;
+}
